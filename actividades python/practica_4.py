@@ -1,10 +1,8 @@
-# Actividad 4. Clasificar temperatura del procesador
+temperatura = int(input("Introduce la temperatura del procesador en grados: "))  # Pide la temperatura y la convierte a número entero
 
-temperatura = int(input("Introduce la temperatura del procesador en grados: "))
-
-if temperatura < 60:
-    print("Temperatura normal.")
-elif temperatura <= 85:
-    print("Temperatura alta.")
-else:
-    print("Temperatura peligrosa.")
+if temperatura < 60:  # Si la temperatura es menor de 60 grados
+    print("Temperatura normal.")  # Se considera normal
+elif temperatura <= 85:  # Si la temperatura es entre 60 y 85 grados
+    print("Temperatura alta.")  # Se considera alta
+else:  # Si la temperatura es mayor de 85 grados
+    print("Temperatura peligrosa.")  # Se considera peligrosa
