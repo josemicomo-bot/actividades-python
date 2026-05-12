@@ -10,6 +10,6 @@ while intentos < maximo_intentos:  # Mientras el número de intentos sea menor q
         print("Acceso permitido.")  # Muestra acceso permitido
         break  # Sale del bucle
     elif intentos < maximo_intentos:  # Si no es correcta y quedan intentos
-        print(f"Contraseña incorrecta. Te quedan {maximo_intentos - intentos} intentos.")  # Muestra los intentos restantes
+        print("Contraseña incorrecta. Te quedan", maximo_intentos - intentos, "intentos.")  # Muestra los intentos restantes
     else:  # Si se han agotado los intentos
         print("Acceso bloqueado. Has agotado los 3 intentos.")  # Muestra que el acceso está bloqueado
